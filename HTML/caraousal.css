@@ -1,0 +1,87 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.p1{
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+.p2{
+    font-size: 12px;
+    color:#c3fac8;
+    font-weight:600;
+}
+.main{
+    width:800px;
+    margin:100px auto;
+    background-color: rgb(23, 82, 23);
+    border-radius: 8px;
+    color:white;
+    padding:30px;
+    padding-left: 80px;
+    position: relative;
+    display:flex;
+    align-items: center;
+    gap:32px;
+    position: relative;
+}
+img{
+    border-radius:6px;
+    box-shadow: 0 10px 13px rgb(0 0 0/30%);
+    width:200px;
+    height:280px;
+    transform:scale(1.5);
+    margin-right: 67px;
+}
+button{
+    border:none;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    transform:translate(0,-50%);
+    color:rgb(2, 109, 2);
+    width:40px;
+    height: 40px;
+    padding:1%;
+    display: flex;
+    border:none;
+    box-shadow: 0 0 9px 0 rgb(0 0 0/35%);  
+    cursor: pointer;
+}
+
+.btn1{
+    left:0;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.btn2{
+    right:0;
+    top:50%;
+    transform: translate(50%,-50%);
+}
+
+
+.dots {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,32px);
+    bottom:0;
+    display: flex;
+    gap: 12px;
+   
+}
+
+#dot2 {
+    background-color: rgb(24, 68, 24);
+}
+
+.dot{
+    border-radius: 50%;
+    border: 2px solid rgb(24, 68, 24);
+    padding: 4px;
+}
