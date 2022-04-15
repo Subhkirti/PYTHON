@@ -1,0 +1,286 @@
+<html>
+    <title>CSS</title>
+<body>
+<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+  <li>Partners</li>
+</ul>
+<br>
+<h1>MY CSS</h1>
+
+<div class="resize">You can use the overflow property when you want to have better control.
+  HOw we can improve yourself
+</div>
+<h3>Hello Friends</h3>
+<h2>Shubh Kirti</h2>
+<div class="animate">OK</div>
+<li class="break">You can use the overflow property when you want to have better control </li>
+<li class="break2">You can use the overflow property when you want to have better control </li>
+<li class="break3">You can use the overflow property when you want to have better control </li>
+<li class="break4">You can use the overflow property when you want to have better control </li>
+<br>
+<br>
+<br>
+<br>
+<br>
+</body>
+<img src="kk.jpeg" width="230px" height="100px">
+<br>
+<table>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+    </tr>
+    <tr>
+      <td>Neetu</td>
+      <td>Shah</td>
+    </tr>
+    <tr>
+      <td>Roshni</td>
+      <td>Verma</td>
+    </tr>
+    <tr>
+      <td>Shubh</td>
+      <td>Kirti</td>
+    </tr>
+  </table>
+  <br>
+  <div class="scroll">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+  
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. </p>
+   
+
+    <div class="tooltip">Hover over me
+      <span class="tooltiptext">Tooltip text</span>
+    </div>
+    
+
+<style>
+  div.resize{
+  border: 2px solid white;
+  color:white;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
+  }
+  div.tooltip{
+    position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .tooltip .tooltiptext::after {
+  
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+  }
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+  div.animate{
+    text-align:center;
+    font-size:25px;
+    color:white;
+    height:200px;
+    width:200px;
+    background-color:yellow;
+    animation:anima;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    position:relative;
+  }
+  @keyframes anima{
+    0%{background-color:yellow;border-radius:0%;text-align:center;}
+    30%{background-color:red;border-radius:30%;text-align:center;}
+    60%{background-color:green;border-radius:40%;text-align:center;}
+    100%{background-color:blue;border-radius:50%;text-align:center;}
+    
+
+  }
+  .transition{
+    width: 100px;
+    height: 100px;
+    font-size:25px;
+    border:2px solid black;
+    background: pink;
+    padding:2%;
+    transition: width 2s ,height 4s,transform 2s ;
+    
+  }
+
+  .transition:hover {
+    width: 200px;
+    height:200px;
+    transform:rotate(45deg)
+  }
+  h3{
+    writing-mode: vertical-rl; 
+  }
+  li.break{
+    width: 140px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+    transform:rotate(20deg);
+    transform: scale(1,3);
+    transform: translate(120%,10%);
+  }
+  li.break2{
+    white-space:56%;
+    width: 160px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+    transform:rotate(20deg);
+    
+  }
+  li.break3{
+    width: 200px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+    transform: scale(1,3);
+ 
+  }
+  li.break4{
+    width: 200px; 
+    border: 1px solid #000000;
+    word-break: keep-all;
+    transform: skewX(20deg);
+    
+ 
+  }
+
+  ul{
+    color:black;
+    background-color:black;
+  }
+  li:hover{
+    color:white;
+    background-color:black
+  }
+  li{
+    cursor: pointer;
+    padding:8px;
+    border:2px solid black;
+    list-style-type:none;
+    background-color:lightgrey;
+    float:left;
+  }
+  ::selection {
+    color: red;
+    background-color: yellow;
+  }
+  p::first-letter{
+    color:black;
+    font-size:40px
+  }
+  p::first-line{
+    color:lightgreen
+  }
+  a.highlight:hover{
+    font-size:45px;
+    color:white;
+  }
+  a.highlight{
+    color:black;
+    font-size:23px
+  }
+ 
+    p{
+    color:white;
+    font-size:24px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+  span.div1 {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+    font-size:25px;
+  }
+  
+  span.div1:hover {
+    background-color: blue;
+    
+  
+  }
+  img[src]{
+    background-color: yellow;
+  }
+  img {
+    float: right;
+  }
+
+
+  div.scroll {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+    background-color: #eee;
+    width: 200px;
+    height: 40px;
+    border: 1px dotted black;
+    overflow: scroll;
+  }
+  table,th,td{
+    color:white;
+    border:1px solid white;
+}
+  h2{
+      font-size:20px;
+     
+      color:white;
+      text-decoration: overline;
+      opacity: 0.8;
+    
+      letter-spacing: 5px;
+      }
+h1{
+    font-size:67px;
+    background-color: black;
+    background-clip: content-box;
+    color: white;
+    text-align: center;
+    border-style: dotted;
+    border-width: 8px;
+    border-color: white;
+    border-radius: 120px;
+    }
+body{
+  
+  background-image:conic-gradient(lightblue,darkblue,purple,black);
+   background-attachment: fixed;
+}
+</style>
+
+<span class="div1">Mouse Over Me</span>
+<br>
+<br>
+<br>
+
+<a class="highlight" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_pseudo-class_links">This is the Link</a>
+<div class="transition">Scroll on me!!!!</div>
+</html>

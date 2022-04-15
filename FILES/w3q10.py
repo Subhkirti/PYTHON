@@ -1,0 +1,7 @@
+file = open("w3q10.txt", "w")
+j=file.writelines(["apple\n","banana\n","apple\n","apple"])
+file.close()
+file2=open("w3q10.txt","r")
+h=file2.read()
+print(h.count("apple"))
+file2.close()

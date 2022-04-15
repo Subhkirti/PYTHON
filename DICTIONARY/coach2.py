@@ -1,0 +1,10 @@
+dic={}
+dic1={}
+dic2={}
+dic["Rose"]="red"
+dic['jasmine']="white"
+dic1["Tomato"]="red"
+dic1["chilly"]="green"
+dic2['Flower']=dic
+dic2["vegetable"]=dic1
+print(dic2)

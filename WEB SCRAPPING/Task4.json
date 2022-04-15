@@ -1,0 +1,24 @@
+{
+    "Name": "Toy Story 4",
+    "Rating": "G",
+    "Genre": [
+        "Fantasy",
+        "Adventure",
+        "Kids&family",
+        "Comedy",
+        "Animation"
+    ],
+    "Language": "English",
+    "Director": [
+        " JoshCooley"
+    ],
+    "Producer": [
+        "Mark",
+        "Nielsen,",
+        "Jonas",
+        "Rivera,",
+        "Galyn",
+        "Susman"
+    ],
+    "Runtime": 100
+}

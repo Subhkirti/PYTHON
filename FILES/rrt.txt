@@ -1,0 +1,6 @@
+reena-delhi
+dhanika-shimla
+rityu-kerala
+punit=delhi
+deepa=shimla
+danish-Kochin
