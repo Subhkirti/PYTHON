@@ -1,0 +1,106 @@
+body{
+    display:flex;
+    flex-wrap: wrap;
+}
+#front{
+    display:flex;
+    justify-content: center;
+    margin-top: 6rem;
+    position:relative;
+    top:0px;
+    left:0px;   
+}
+i{
+    padding:10%;
+    font-size:4rem;
+    color:rgb(216, 1, 1);
+}
+#main{
+    visibility: hidden;
+}
+#menu{
+    position:fixed;
+}
+#st1{
+    background-color: rgb(255, 217, 0);
+    height:8rem;
+    width:1rem;
+    position:absolute;
+    top:0px;
+    left:33rem;
+    border-radius: 0px 0px 19px 2px;
+}
+#st3{
+    background-color: rgb(255, 217, 0);
+    height:32rem;
+    width:1rem;
+    position:absolute;
+    bottom:15px;
+    left:33rem;
+    border-radius: 19px 2px 0px 0px;
+}
+#st2{
+    background-color: rgb(255, 217, 0);
+    height:24rem;
+    width:1rem;
+    position:absolute;
+    top:0px;
+    left:35rem;
+    border-radius: 0px 0px 19px 2px;
+}
+li{
+    float:left;
+    list-style-type: none;
+    letter-spacing: 1px;
+    margin-right:10px;
+    font-size:1rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#side{
+    padding:2%;
+    transition:ease-in;
+    transition-delay: 1s;
+    height:37.5rem;
+    width:35%;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top:0px;
+    display:flex;
+    flex-wrap:wrap;
+    left:0px;
+}
+#burger{
+    width:61%;
+    height:41rem;
+    float: right;
+    position: absolute;
+    top:0px;
+    right:0px;
+ 
+}
+#gif{
+    display:flex;
+    justify-content:center;
+}
+#logo{
+    width:3rem;
+    height:3rem;
+    padding: 6px;
+    border-radius: 0.6rem;
+}
+#text{
+    font-size:3rem;
+    color:rgb(216, 1, 1);
+    font-weight: bolder;
+    -webkit-text-stroke:2px rgb(216, 1, 1);
+    font-family: 'Fredoka One', cursive;
+    letter-spacing:6px;
+}
+#text::first-line{
+    color: transparent;
+    font-size:4rem;
+  }
+  i:hover{
+      cursor:pointer;
+  }
